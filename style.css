@@ -1,0 +1,156 @@
+/* .ma-classe {
+    color: #663399;
+    /* change ma classe 
+}
+  <h1>Les jeux olympiques</h1>
+    <p> liste a puces</p>
+    <nav>
+    <ul>
+        <li>Fraises</li>
+        <li>Framboises</li>
+        <li>Groseilles</li>
+     </ul>
+    </nav>
+<p class="ma-classe">
+    <a href="https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3/1604646-creez-un-lien-hypertexte-en-html">Accédez à OpenClassrooms</a>
+   blablabla puis retour a la ligne <br>
+   <a href="page2.html">Page 2</a>
+   lien relatif a notre site
+
+
+   <a href="#mon_ancre">Titre</a>
+   <h2 id="mon_ancre">Titre</h2>
+C'est une ancre c'est a <span>Ceci est modiff</span>dire cela permet d'aller vite sur lendroit qui nous intéresse
+
+Si l'ancre renvoie sur une autre page de notre site
+<a href="index.html#jardin" target="_blank">Le jardin</a>
+Ici on indique le nom de la page suivi de l'ancre
+Et le target permet d'ouvrir direct un nouvel onglet
+
+<img src="montagnes.png" title="Alors, envie de vous balader n'est-ce pas ?" alt="Chemin de randonnée au milieu des montagnes">
+</p>
+<p>liste numérotée
+</p>
+<p> voici <mark>Tristan</mark> ca surligne <em>c'est en italique</em>
+<strong>c'est en gras</strong>
+</p>
+<ol>
+   <li>Je me lève.</li>
+   <li>Je mange et je bois de l'eau.</li>
+   <li>Je retourne me coucher.</li>
+</ol> 
+.grand-texte {
+    font-size: 30px;
+}
+
+#logo {
+    /* Indiquez les propriétés CSS ici */
+    /* color: #147899;
+    font-size: 1em; 1= taille normale >1 = plus grand et <1 = plus petit
+    font-family: nom-police;
+    font-weight: 100 to 900;
+    text-decoration: underline ou line-trough ou none // sous ligne
+    text-align: left ou center ou right
+    background-color: black; le fond sera noir a mettre dans body
+    background-image: url('ooo.jpg');
+    background-attachment: argument; 
+    background-image  ;
+    background-repeat  ;
+    background-size ;
+    background-position
+    opacity: 0 to 1;
+    border-top  : bordure du haut.
+    border-bottom  : bordure du bas.
+    border-left  : bordure de gauche.
+    border-right
+    border radius
+    avec border on met la couleur la taille et la forme de cette bordure
+    et modifier l'angle des coins
+    padding: 100px; espace de 100 pixel
+    box-shadow: décalage "horizontal' 'vertical' 'couleur '
+    width: 350 px taille en largeur
+    height: 350 taille en hauteur
+    
+    }
+
+    a:hover {
+
+        background-color: #C1FFD7;
+
+    }
+
+a:active{
+    background-color: #C1FFD7;
+
+}
+a:visited {
+    color: black;
+}
+* {
+    /* Insérez ici votre style 
+    }
+    h3 + p {
+        /* Insérez ici votre style 
+        }
+        h3 em {
+            /* Insérez ici votre style 
+            }
+*/
+
+
+
+/* MENU */
+
+
+/*Reset CSS*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Avenir, sans-serif;
+}
+
+nav{
+    width: 100%;
+    margin: 0px auto 40px auto;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li{
+    float: left;
+    width: 25%;/*100% divisé par le nombre d'éléments de menu*/
+    text-align: center;/*Centre le texte dans les éléments de menu*/
+}
+
+/*Evite que le menu n'ait une hauteur nulle*/
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: block; /*Toute la surface sera cliquable*/
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;/*Evite le décalage des éléments sous le menu à cause de la bordure en :hover*/
+    padding: 10px 0px;/*Agrandit le menu et espace la bordure du texte*/
+}
+
+nav a:hover{
+    color: orange;
+    border-bottom: 2px solid gold;
+}
+
+.conteneur{
+  margin: 0px 20px;
+  height: 1500px;
+}
+
+
+/* FIN MENU */
